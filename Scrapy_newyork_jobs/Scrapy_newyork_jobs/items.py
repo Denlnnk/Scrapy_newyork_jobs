@@ -7,6 +7,7 @@ import scrapy
 
 
 class ScrapyNewyorkJobsItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    job_title = scrapy.Field()
+    comprensation = scrapy.Field()
+    employment_type = scrapy.Field()
+

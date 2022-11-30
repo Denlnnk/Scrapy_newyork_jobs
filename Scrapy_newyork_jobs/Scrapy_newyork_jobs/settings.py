@@ -61,12 +61,12 @@ DOWNLOAD_HANDLERS = {
 }
 
 PLAYWRIGHT_LAUNCH_OPTIONS = {
-            "proxy": {
-                "server": "178.63.237.147:8080",
-                "username": "user",
-                "password": "pass",
-            },
-        }
+    "proxy": {
+        "server": "178.63.237.147:8080",
+        "username": "user",
+        "password": "pass",
+    },
+}
 
 TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 
@@ -105,4 +105,3 @@ TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 
 # Set settings whose default value is deprecated to a future-proof value
 REQUEST_FINGERPRINTER_IMPLEMENTATION = '2.7'
-TWISTED_REACTOR = 'twisted.internet.asyncioreactor.AsyncioSelectorReactor'
